@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="/styling/index.css" />
+    <script src="/js/index.js" defer></script>
+    <title>Form Submit</title>
+  </head>
+  <body>
+    <form id="loginForm" action="POST">
+      <label for="email">Email:</label><br />
+      <input type="email" id="email" name="email" required /><br /><br />
+
+      <label for="password">Password:</label><br />
+      <input
+        type="password"
+        id="password"
+        name="password"
+        required
+      /><br /><br />
+
+      <label for="message">Message:</label><br />
+      <textarea
+        rows="10"
+        type="password"
+        id="message"
+        name="message"
+        required
+        style="resize: none"
+      ></textarea>
+      <br /><br />
+
+      <button type="submit">Submit</button>
+    </form>
+  </body>
+</html>
